@@ -1,28 +1,31 @@
 # rodri-amoroso-app
 
-a [Sails v1](https://sailsjs.com) application
+Web aplication para gestión de casamiento de Rodri !
 
 
-### Links
+### Links Interesantes
 
 + [Sails framework documentation](https://sailsjs.com/get-started)
-+ [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
-+ [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
-+ [Community support options](https://sailsjs.com/support)
-+ [Professional / enterprise options](https://sailsjs.com/enterprise)
++ [Oranización de grupos de trabajo](https://docs.google.com/spreadsheets/d/1-md3el4jv8UdkQ9Zc5r89ZfqrpakooiDPtpftMQ9GtA/edit?usp=sharing)
++ [Bibliografía](https://docs.google.com/spreadsheets/d/1-md3el4jv8UdkQ9Zc5r89ZfqrpakooiDPtpftMQ9GtA/edit?usp=sharing)
++ [Backlog](https://docs.google.com/spreadsheets/d/1-md3el4jv8UdkQ9Zc5r89ZfqrpakooiDPtpftMQ9GtA/edit?usp=sharing)
+
+### Requisitos
+
++ NodeJS versión 10 o más
++ NPM 
+
+### Instalación
+
++ Crear una carpeta en tu sistema
++ Clonar el repositorio
++ Ingresar en la carpeta creada al clonar
++ Ejecutar `npm install sails -g`
++ Ejecutar `npm install`
+
+### Ejecución
+Dentro de la carpeta del proyecto ejecutar por consola `sails lift`
+Acceder al navegador por `http://localhost:1337`
 
 
-### Version info
-
-This app was originally generated on Thu Jun 10 2021 15:52:06 GMT-0300 (Argentina Standard Time) using Sails v1.4.2.
-
-<!-- Internally, Sails used [`sails-generate@2.0.3`](https://github.com/balderdashy/sails-generate/tree/v2.0.3/lib/core-generators/new). -->
-
-
-This project's boilerplate is based on an expanded seed app provided by the [Sails core team](https://sailsjs.com/about) to make it easier for you to build on top of ready-made features like authentication, enrollment, email verification, and billing.  For more information, [drop us a line](https://sailsjs.com/support).
-
-
-<!--
-Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
--->
 
